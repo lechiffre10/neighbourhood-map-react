@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+    display:flex;
+}
+
+
+
+/* Side Nav */
+
+.side-nav-container {
+    display:flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.location-list {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    width:100%;
+    padding: 0;
+}
